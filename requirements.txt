@@ -1,0 +1,8 @@
+pandas==2.2.3
+plotly==6.0.0
+requests==2.32.3
+
+# Passos para criar o arquivo de requisitos, antes de fazer o deploy do Dashboard:
+''' 1. Fechar e abrir terminal -> 2. Acionar o ambiente virtual .\venv\Scripts/activate -> 3. Verificar as versões das bibliotecas usadas no projeto "pip freeze" -> 4. Abrir uma novo arquivo (file) chamado "requirements.txt, dentro do diretório "Dashboard.py" -> 5. Copiar as bibliotecas e suas versões para dentro do arquivo '''
+
+# OBS: Não é necessário adicionar a biblioteca streamlit, já que o projeto irá rodar dentro do próprio aplicativo.
